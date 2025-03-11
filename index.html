@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="ressurser.js"></script>
+    <script defer src="script.js"></script>
+    <title>Arbeidskrav 1</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!--buttonClick(this, 'HTML') kaller funksjonen når knappen er trykket på.-->
+            <button onclick="buttonClick(this, 'HTML')" class="subject active">HTML</button>
+            <button onclick="buttonClick(this, 'CSS')" class="subject">CSS</button>
+            <button onclick="buttonClick(this, 'JavaScript')" class="subject">JavaScript</button>
+            <button onclick="buttonClick(this, 'React')" class="subject">React</button>
+            <button onclick="buttonClick(this, 'Sanity')" class="subject">Santity and headless CMS</button>
+        </nav>
+    </header>
+
+    <!--main-element som skal fylles med innhold fra ressurser.js-->
+    <main id="htmlElement"></main>
+</body>
+</html>
